@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="task_filters">
+        <item>Todas las tareas</item>
+        <item>Pendientes</item>
+        <item>Completadas</item>
+        <item>Urgentes</item> <!-- Considera si tienes este filtro en tu lógica -->
+        <item>Prioridad Alta</item> <!-- Considera si tienes este filtro en tu lógica -->
+    </string-array>
+</resources>

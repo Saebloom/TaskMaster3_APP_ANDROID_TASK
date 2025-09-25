@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TaskMaster</string>
+
+    <!-- Strings para activity_add_task.xml -->
+    <string name="hint_task_title">Título de la tarea</string>
+    <string name="hint_task_description">Descripción</string>
+    <string name="label_priority">Prioridad</string>
+    <string name="priority_high">Alta</string>
+    <string name="priority_medium">Media</string>
+    <string name="priority_low">Baja</string>
+    <string name="label_importance">Importancia</string>
+    <string name="checkbox_urgent_task">Tarea Urgente</string>
+    <string name="button_save_task">Guardar Tarea</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="add_task_screen_title">Añadir Nueva Tarea</string> <!-- Para la Toolbar -->
+    <string name="edit_task_screen_title">Editar Tarea</string> <!-- Para la Toolbar en modo edición -->
+    <string name="button_update_task">Actualizar Tarea</string> <!-- Para el botón en modo edición -->
+
+
+    <!-- Strings para los filtros del Spinner en MainActivity -->
+    <string name="filter_all_tasks">Todas las tareas</string>
+    <string name="filter_pending">Pendientes</string>
+    <string name="filter_completed">Completadas</string>
+    <string name="filter_urgent">Urgentes</string>
+    <string name="filter_high_priority">Prioridad Alta</string>
+
+    <!-- Descripción para botones en item_task.xml -->
+    <string name="delete_task_description">Eliminar tarea</string>
+    <string name="edit_task_description">Editar tarea</string>
+
+    <!-- Strings para el diálogo de confirmación de eliminación -->
+    <string name="confirm_delete_title">Confirmar Eliminación</string>
+    <string name="confirm_delete_message">¿Estás seguro de que quieres eliminar la tarea \"%1$s\"?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+
+</resources>

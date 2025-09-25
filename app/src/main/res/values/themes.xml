@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TaskMaster" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colores Primarios -->
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer</item>
+        <!-- Colores Secundarios -->
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer</item>
+        <!-- Colores Terciarios (opcional, pero definido en colors.xml) -->
+        <item name="colorTertiary">@color/md_theme_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_onTertiaryContainer</item>
+        <!-- Color de Error -->
+        <item name="colorError">@color/md_theme_error</item>
+        <item name="colorOnError">@color/md_theme_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_onErrorContainer</item>
+        <!-- Color de Fondo -->
+        <item name="android:colorBackground">@color/md_theme_background</item>
+        <item name="colorOnBackground">@color/md_theme_onBackground</item>
+        <!-- Color de Superficie (para Cards, Dialogs, Menus, etc.) -->
+        <item name="colorSurface">@color/md_theme_surface</item>
+        <item name="colorOnSurface">@color/md_theme_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_onSurfaceVariant</item>
+        <!-- Color de Contorno/Borde -->
+        <item name="colorOutline">@color/md_theme_outline</item>
+
+        <!-- Color de la Barra de Estado -->
+        <!-- Theme.Material3.DayNight maneja esto bastante bien basado en colorPrimary.
+             Si se necesita un color específico, se puede descomentar y ajustar. -->
+        <!-- <item name="android:statusBarColor">@color/md_theme_primary</item> -->
+
+        <!-- Habilitar la decoración de la barra de estado para Material 3 (opcional pero recomendado) -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!-- Para el modo oscuro, Theme.Material3.DayNight.NoActionBar lo ajustará a false si es necesario,
+             o puedes tener un themes.xml (night) para controlarlo explícitamente. -->
+
+    </style>
+
+    <style name="Theme.TaskMaster" parent="Base.Theme.TaskMaster" />
+
+    <!-- Estilo específico para la Toolbar si se requiere un color diferente al colorPrimary general -->
+    <style name="Theme.TaskMaster.Toolbar" parent="Widget.Material3.Toolbar.Surface">
+        <item name="android:background">@color/md_theme_primary</item>
+        <item name="titleTextColor">@color/md_theme_onPrimary</item>
+        <item name="subtitleTextColor">@color/md_theme_onPrimary</item>
+    </style>
+
+    <!-- Estilo para el FloatingActionButton (FAB) -->
+    <style name="Theme.TaskMaster.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/md_theme_secondary</item>
+        <item name="tint">@color/md_theme_onSecondary</item> <!-- Color del icono dentro del FAB -->
+    </style>
+
+</resources>

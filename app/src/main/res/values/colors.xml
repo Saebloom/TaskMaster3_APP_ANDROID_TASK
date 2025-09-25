@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta de Colores TaskMaster Celeste Marino -->
+    <color name="md_theme_primary">#0077B6</color> <!-- Celeste Marino Principal -->
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#CAF0F8</color> <!-- Un azul muy claro para contenedores -->
+    <color name="md_theme_onPrimaryContainer">#001F2A</color>
+
+    <color name="md_theme_secondary">#00B4D8</color> <!-- Acento Azul Brillante -->
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+    <color name="md_theme_secondaryContainer">#ADE8F4</color> <!-- Contenedor de acento más claro -->
+    <color name="md_theme_onSecondaryContainer">#001F2A</color>
+
+    <color name="md_theme_tertiary">#90E0EF</color> <!-- Opcional: Otro tono de azul claro -->
+    <color name="md_theme_onTertiary">#000000</color>
+    <color name="md_theme_tertiaryContainer">#CAF0F8</color>
+    <color name="md_theme_onTertiaryContainer">#001F2A</color>
+
+    <color name="md_theme_error">#B00020</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+    <color name="md_theme_errorContainer">#FFDAD6</color>
+    <color name="md_theme_onErrorContainer">#410002</color>
+
+    <color name="md_theme_background">#F5F5F5</color> <!-- Fondo general gris muy claro -->
+    <color name="md_theme_onBackground">#1C1B1F</color> <!-- Texto sobre fondo general -->
+
+    <color name="md_theme_surface">#FFFFFF</color> <!-- Superficie de tarjetas, etc. (Blanco) -->
+    <color name="md_theme_onSurface">#1C1B1F</color> <!-- Texto sobre superficies -->
+    <color name="md_theme_surfaceVariant">#E7E0EC</color> <!-- Variante de superficie (ej. para outlines) -->
+    <color name="md_theme_onSurfaceVariant">#49454F</color> <!-- Texto sobre variante de superficie -->
+    <color name="md_theme_outline">#79747E</color>
+
+    <!-- Colores antiguos (pueden ser eliminados o mantenidos si se usan en algún lugar específico) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores específicos del diseño de referencia (opcional) -->
+    <color name="light_blue_header_background">#CAF0F8</color> <!-- Para la sección superior de la pantalla principal -->
+    <color name="task_item_icon_background_default">#E0E0E0</color> <!-- Gris claro para fondo de íconos en items -->
+
+</resources>
